@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+body{
+    padding: 0px;
+    margin:0px;
+    background-color:rgb(38, 38, 38);
+    color:azure;
+    font-family: "Madimi One", sans-serif;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box{
+    width:70%;
+    min-height:300px;
+    background-color: white;
+    padding:20px;
+    border-radius: 10px;
+    
+}
+#item{
+    width:100%;
+    font-size: 20px;
+    border:2px solid;
+    border-color: rgb(38, 38, 38);
+    box-sizing: border-box;
+    padding:10px 20px 10px 20px;
+    border-radius: 20px;
+    box-sizing: 0px,5px,10px rgb(84, 84, 84);
+    color: rgb(59, 59, 59);
+    font-weight: bold;
+    font-family: "Madimi One", sans-serif;
+} 
+#item:focus{
+    outline:none;
+}
+#todobox{
+    width:99%;
+    box-sizing: border-box;
+    margin:10px;
+    list-style: none;
+}
+#todobox li{ 
+    box-sizing: border-box;
+    margin: 5px;
+    width: 100%;
+    border-radius:15px;
+    padding:10px;
+    background-color:rgb(38, 38, 38);
+    position: relative;
+}
+#todobox li i{
+    position: absolute;
+    right:10px;
+    top:10px;
+}
+.done{
+    text-decoration: line-through;
+    color:rgb(38, 38, 38);
+    background-color: rgb(193, 235, 239)!important;
+}
